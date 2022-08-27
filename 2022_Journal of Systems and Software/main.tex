@@ -1,0 +1,165 @@
+
+\documentclass[a4paper,fleqn]{cas-dc}
+
+\usepackage[authoryear,longnamesfirst]{natbib}
+\usepackage{scalefnt}
+\usepackage{longtable}
+\usepackage{pdflscape}
+\usepackage{color}
+\usepackage{vcell}
+\newcommand{\red}[1]{{\color{red}#1}}
+\newcommand{\blue}[1]{{\color{blue}#1}}
+\newcommand{\white}[1]{{\color{white}#1}}
+\newcommand{\m}[1]{{\color{magenta}#1}}
+\newcommand{\cyan}[1]{{\color{cyan}#1}}
+\newcommand{\green}[1]{{\color{green}#1}}
+\usepackage{multirow}
+
+\usepackage{bibentry}
+\nobibliography*
+
+
+\def\tsc#1{\csdef{#1}{\textsc{\lowercase{#1}}\xspace}}
+\tsc{WGM}
+\tsc{QE}
+%%%
+
+\begin{document}
+\let\WriteBookmarks\relax
+\def\floatpagepagefraction{1}
+\def\textpagefraction{.001}
+
+% Short title
+\shorttitle{Explaining Interoperability}    
+
+% Short author
+\shortauthors{<short author list for running head>}  
+
+% Main title of the paper
+\title [mode = title]{Explaining Interoperability in Software Systems: A Tertiary Study
+}  
+
+
+
+\author[1,2]{Rita S. P. Maciel}
+\ead{rita.suzana@ufba.br}
+
+\affiliation[1]{organization={Federal University of Bahia},
+            city={Salvador},
+            country={Brazil}}
+
+\author[3]{Pedro Valle}
+
+\ead{pedrovalle@ice.ufjf.br}
+
+\affiliation[2]{organization={University of São Paulo},
+           city={São Carlos},
+            country={Brazil}}
+
+\author[1]{Kécia Santos}
+\ead{kecia.ss@gmail.com}
+\affiliation[3]{organization={Federal University of Juiz de Fora},
+            city={Juiz de Fora},
+            country={Brazil}}
+            
+\author[2]{Elisa Yumi Nakagawa}
+\ead{elisa@icmc.usp.br}
+
+
+
+
+
+
+
+\maketitle
+
+This technical report aims to provide extra information about the tertiary study that we conducted.
+
+\section{Summary of Secondary Studies}
+
+This section presents the summary of secondary studies considered in our tertiary study.
+
+\\
+
+\noindent{\textbf{S1}: An LR of research works was developed to define and solve interoperability problems in product development link the different Product Lifecycle Management tools.}
+
+\noindent{\textbf{S2}: An LR of a set of concepts covering the Enterprise Architecture (EA) and interoperability domains. The authors identify key aspects of interoperability and EA and their associations, resulting in a reference conceptual model for integrated Enterprise Architecture Interoperability.}
+
+\noindent{\textbf{S3}: An LR of what interoperability entails in the healthcare domain and the special role of standardization in the achievement
+of interoperability.}
+
+
+\noindent{\textbf{S4}: An LR on existing interoperability frameworks for e-business and a comparative analysis among their findings to determine the similarities and differences in their philosophy and implementation }
+
+
+\noindent{\textbf{S5}: An LR on data models suggested for the public sector in light of four features: standard modeling language, entity relationship
+modeling, vocabulary for data exchange, and methodology. }
+
+
+\noindent{\textbf{S6}: An SLR for describing the existing interoperability evaluation models. In addition, it performs a comparative analysis of their findings to determine the similarities and differences in their philosophy and implementation. }
+
+
+\noindent{\textbf {S7}: An SLR to provide a holistic view of new ways of applying semantic technologies in cloud computing and to analyze the proposed solutions. It is sought through semantics to achieve interoperability and portability between different cloud providers.}
+
+\noindent{\textbf {S8}: An SLR to present an overview of the literature about interoperability assessment methods.}
+
+\noindent{\textbf{S9}: An SLR to examine and explore the role of Semantic Web Technologies in the cloud from a wide variety of literatures.}
+
+\noindent{\textbf {S10}: An LRS and SMS to identify, analyze and classify the published solutions to achieve pragmatic interoperability.}
+
+\noindent{\textbf {S11}: An LR to analyze and categorize various solutions suggested in literature for solving the interoperability and portability issues of inter-connected clouds.}
+
+\noindent{\textbf{S12}: An qSLR to collect interoperability characteristics regarding context-awareness software systems.}
+
+
+\noindent{\textbf{S13}: An SLR to identify the main research and the milestones reference works in the semantic interoperability field.}
+
+
+\noindent{\textbf{S14}: An SLR to identify concepts valuable to transfer from the interoperability to the tool integration research field.}
+
+\noindent {\textbf {S15}: An LR to develop a definition of interoperability governance from the published literature and  to investigate interoperability governance patterns at European Member State levels.}
+
+
+\noindent {\textbf {S16}: An LR to identify automation approaches that address semantic interoperability, in dynamic cyber-physical systems at a large scale.}
+
+\noindent {\textbf {S17}: An qSLR to discuss how interoperability has been addressed in context-aware software systems, strengthening the scientific basis for its understanding and conceptualization.}
+
+
+\noindent{\textbf{S18}: An LR to identify the current Industry 4.0 technologies and current interoperability standards was be undertake.}
+
+\noindent{\textbf{S19}: An SLR was performed considering sustainability factors, interoperability concerns, and lifecycle stages.}
+
+\noindent{\textbf{S20}:An LR reviewed the e-government interoperability frameworks (e-GIFs) of English and Arabic-speaking African countries to identify the evidence and conflict approaches to semantic interoperability.}
+
+\noindent {\textbf {S21}: An SLR to identify the relevant Interoperability Assessment (INAS) approaches performing a comparison   based on their similar and different properties (type of assessment, used measurement mechanism, and addressed interoperability barriers).}
+
+\noindent {\textbf {S22}: An SMS to identify the state-of-the-art of interoperability in the IoT context.}
+
+\noindent{\textbf{S23}: An SLR to examine the progress that is being in order to establish interoperability across a diverse set of systems and also to identify the challenges in establishing this level of interoperability.}
+
+\noindent{\textbf{S24:} An SLR An SLR to answer various research questions regarding the methodical composition of system components and services in semantic interoperability for smart service systems context.}
+
+\noindent{\textbf{S25}: An SLR to identify the most relevant elements to consider in the development of an ontology-based solution and how these solutions are being deployed in the industry.}
+
+
+\noindent{\textbf {S26}: An SLR to conduct on the current state-of-the-art semantic IoT solutions used in the health domain, identify the associated challenges, and propose a federated edge-cloud semantic IoT architecture to facilitate healthcare and public health (HC-PH) collaborations.} 
+
+\noindent{\textbf{S27:} An RL to define level-specific interoperability guidelines, business processes, and requirements for the Transnational Health Record system framework.}
+
+\noindent{\textbf {S28}: An SLR is presented to investigate where interoperability of application layer protocols is performed for IIoT.} 
+
+\noindent\textbf {S29}: An SLR to explore the literature related to Fast Health Interoperability Resources (FHIR), including the challenges, implementation, opportunities, and future FHIR applications.
+
+\noindent{\textbf{S30}: An SLR on semantic interoperability in electronic health records, showing the most chosen scenarios, technologies, and tools employed to solve interoperability problems.}
+
+
+\newpage
+\section{Definition of Interoperability Types}
+
+The Table~\ref{tab:understanding} presents the definitions identified for the 33 interoperability types reported in 30 secondary studies that we considered in our work.
+
+
+
+\include{tables/table_understanding}
+
+\end{document}
